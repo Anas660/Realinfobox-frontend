@@ -1,0 +1,65 @@
+{
+  "apiUrl": "https://533ep5bt2d.execute-api.us-east-1.amazonaws.com/dev/",
+  "mailingList": {
+    "tiers": [
+      {
+        "id": 1,
+        "limit": 500
+      },
+      {
+        "id": 2,
+        "limit": 1000
+      },
+      {
+        "id": 3,
+        "limit": 2500
+      },
+      {
+        "id": 4,
+        "limit": 5000
+      },
+      {
+        "id": 5,
+        "limit": 10000
+      },
+      {
+        "id": 6,
+        "limit": 5
+      }
+    ]
+  },
+  "timezones": [
+    {
+      "name": "Atlantic",
+      "value": "America/Halifax"
+    },
+    {
+      "name": "Central",
+      "value": "America/Winnipeg"
+    },
+    {
+      "name": "Eastern",
+      "value": "America/Toronto"
+    },
+    {
+      "name": "Mountain",
+      "value": "America/Edmonton"
+    },
+    {
+      "name": "Newfoundland",
+      "value": "America/St_Johns"
+    },
+    {
+      "name": "Pacific",
+      "value": "America/Vancouver"
+    },
+    {
+      "name": "Saskatchewan",
+      "value": "America/Regina"
+    },
+    {
+      "name": "Yukon",
+      "value": "America/Whitehorse"
+    }
+  ]
+}

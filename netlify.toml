@@ -1,0 +1,5 @@
+[context.production.environment]
+  API_URL = "https://vt4mmywsu4.execute-api.us-east-1.amazonaws.com/v1"
+
+[context.staging.environment]
+  API_URL = "https://2thlkz1fh5.execute-api.us-east-1.amazonaws.com/staging"

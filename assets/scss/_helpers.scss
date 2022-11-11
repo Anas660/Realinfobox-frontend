@@ -1,0 +1,18 @@
+.children-margin {
+  > * {
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hint {
+  color: gray;
+  font-size: 0.8em;
+}

@@ -1,0 +1,5 @@
+temp.js
+node_modules/
+plugins/ckeditor/build/
+plugins/**
+.gitignore

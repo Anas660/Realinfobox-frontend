@@ -1,0 +1,54 @@
+{
+  "common": {
+    "loading": "FR Loading..."
+  },
+  "login": {
+    "loginTitle": "Log in",
+    "loginSubtitle": "Welcome back! Please login to your account.",
+    "title": "Build trust and professional reputation as a realtor",
+    "subtitle": "Keep in touch with your contacts!",
+    "titleButton": "Learn more",
+    "form": {
+      "email": "E-mail",
+      "password": "Password",
+      "login": "Log In",
+      "forgotPassword": "Forgot password?",
+      "resetPassword": "Reset password"
+    }
+  },
+  "reports": {
+    "calgary": {
+      "apartment": "Apartment",
+      "detached": "Detached",
+      "row": "Row",
+      "semi-detached": "Semi-detached"
+    },
+    "edmonton": {
+      "condo": "Condominium",
+      "detached": "Single Family",
+      "duplex": "Duplex / Rowhouse",
+      "residential": "Total Residential"
+    },
+    "fraser-valley": {
+      "detached": "Detached",
+      "townhome": "Townhome",
+      "apartment": "Apartment"
+    },
+    "vancouver": {
+      "detached": "Detached Homes",
+      "townhome": "Townhomes",
+      "apartment": "Apartment"
+    },
+    "victoria": {
+      "detached": "Single Family Residential Homes",
+      "row": "Row / Townhouse",
+      "condo": "Condo Apartment",
+      "residential": "Total Residential"
+    },
+    "winnipeg": {
+      "detached": "Detached",
+      "attached": "Attached",
+      "condo": "Condominium"
+    }
+  }
+}
