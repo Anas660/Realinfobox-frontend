@@ -6,7 +6,7 @@
   >
     <SubscriptionSection
       :title="$t('billing.mySubscriptions')"
-      :products="myProducts"
+      :products="mySubscriptions"
     />
     <SubscriptionSection
       :title="$t('billing.subscription')"
@@ -49,24 +49,7 @@ export default {
         },
       },
       subscriptions: [],
-      myProducts: [
-        {
-          id: 1,
-          name: 'Mock product 1',
-          type: 'product',
-          description: '',
-          price: '500 000',
-          isSubscribed: true,
-        },
-        {
-          id: 2,
-          name: 'Mock product 2',
-          type: 'product',
-          description: '',
-          price: '500 000',
-          isSubscribed: true,
-        },
-      ],
+      mySubscriptions: [],
     };
   },
 
@@ -96,11 +79,13 @@ export default {
       try {
         this.isLoading = true;
 
+        const { mydata } = await this.$axios.get(endpoints.payments.mySubscriptions);
         const { data } = await this.$axios.get(endpoints.payments.subscriptions);
 
         this.isLoading = false;
 
         this.subscriptions = data;
+        this.mySubscriptions = mydata;
       } catch (error) {
         this.$snack.show('Failed to load subscriptions', 'danger');
       } finally {
